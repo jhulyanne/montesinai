@@ -3,56 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/style.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <img src="assets/images/logo.svg" alt="">
+    <div id="initial-display">
+        <header>
+            <a href="index.html"><img id="logo" src="assets/images/icons/logo.svg" alt=""></a>
+        </header>
         <nav>
             <ul>
-                <li><a href="#about-us">Sobre nós</a></li>
-                <li><a href="#pillars">Nossos pilares</a></li>
-                <li><a href="#differentials">Diferenciais</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#budget-container">Faça seu orçamento</a></li>
+                <!-- <li><a href="#about-us">Sobre nós</a></li>
+                <li><a href="#pillars">Nossos pilares</a></li> -->
+                <li><div class="test"><a href="#differentials">Diferenciais</a></div></li>
+                <li><div class="test"><a href="#services">Serviços</a></div></li>
+                <li><div class="test"><a href="#budget-container">Faça seu orçamento</a></div></li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <div id="carousel">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
+         </nav>
+         <div class="container">
+            <div class="background"></div>
+            <div class="content">
+                <h1>Bem-vindo a Monte Sinai</h1>
+                <p>Ut et nisl pharetra, fermentum orci at, venenatis enim. Cras euismod, nunc in blandit egestas, libero turpis euismod sapien, fringilla efficitur nulla ante vitae quam. Phasellus magna ex, lobortis imperdiet lobortis sed, convallis et nulla. Etiam id nunc felis. Vivamus porta eleifend lectus, vel elementum sapien placerat vitae.</p>
+                <button class="budget">Fazer um orçamento</button>
+            </div>
+          </div>
+    </div>
 
-        <button class="budget">Fazer um orçamento</button>
+    <main>
+
 
         <section>
-            <article id="about-us">
-                <div id="left">
-                    <h1>Nós somos a Monte Sinai</h1>
-                    <p></p>
-                </div>
-                <div id="right">  
-                    <img src="" alt="">
-                </div>
-            </article>
-            <article id="pillars">
-                <h2>Nossos pilares</h2>
-                <div id="card"> <!-- hover? -->
-                    <h3>Missão</h3>
-                    <p></p>
-                </div>
-                <div id="card">
-                    <h3>Visão</h3>
-                    <p></p>
-                </div>
-                <div id="card">
-                    <h3>Missão</h3>
-                    <p></p>
-                </div>
-            </article>
             <article id="differentials">
                 <div id="left">
                     <img src="" alt="">
@@ -66,6 +47,7 @@
                 <img src="" alt="">
                 <img src="" alt="">
                 <img src="" alt="">
+                <img src="" alt="">
             </article>
         </section>
         <div id="budget-container">
@@ -73,8 +55,19 @@
             <button class="budget">Fazer um orçamento</button>
         </div>
     </main>
-    <footer>
 
+
+    <div id="fixed">
+        <button id="to-whatsapp"><a href=""><img src="assets/images/icons/whatsapp-icon.svg" alt=""></a></button>
+        <button id="back-to-top"><a href="#start"><img src="assets/images/icons/up-icon.svg" alt=""></a></button>
+    </div>
+
+
+    <footer>
+        <a href=""><img src="" alt="Logo facebook"></a>
+        <a href=""><img src="" alt="Logo instagram"></a>
+        <a href=""><img src="" alt="Logo whatsapp"></a>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
