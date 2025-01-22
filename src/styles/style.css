@@ -120,6 +120,7 @@ body{
     }
 }
 
+
 #services {
     width: 100vw;
     height: 80vh;
@@ -131,6 +132,7 @@ body{
     h2 {
         padding-bottom: 50px;
     }
+
     #container-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -154,7 +156,7 @@ body{
         text-align: center;
 
         h3 {
-            font-size: 1.2rem;
+            font-size: 1rem;
             color: var(--dark-neutral-color);
             margin-bottom: 1rem;
         }
@@ -168,28 +170,32 @@ body{
 
 }
 
-
-
 #differentials {
-    /* padding: 5rem;
-    width: 80vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-  */
-   #left {
+    padding: 0rem 10rem;
 
-        img {
-            width: 40rem;
-            height: auto;
-        }        
-    }  
-  
-    #right {
-        width: 100%;
+    ul li img {
+        width: 20px;
     }
-} 
+}
+
+#differentials #left img {
+    width: 30rem;
+    height: auto;
+}
+
+
+
+#differentials #right {
+    padding-left: 4rem;
+    width: 50%;
+}
+
+
+
+
 
 .budget {
     width: 15em;
