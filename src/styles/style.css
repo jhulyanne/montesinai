@@ -65,9 +65,10 @@ nav ul li a {
 .content{
     background-color: var(--tertiary-clean);
     border-radius: 10px;
-    height: 60vh;
-    width: 60%;
+    height: 70vh;
+    width: 50%;
 
+    gap: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,12 +76,18 @@ nav ul li a {
     color: grey;
 
     h2 {
-        font-size: 1.6rem;
-
+        font-size: 1.9rem;
+        width: 80%;
     }
 
     h1 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        width: 80%;
+    }
+
+    p {
+        width: 80%;
+        font-size: 1.2rem;
     }
 }
 
@@ -153,6 +160,10 @@ button.budget a {
     color: white;
 }
 
+.budget {
+    width: 70%;
+}
+
 #fixed {
 
 }
@@ -172,7 +183,31 @@ footer {
     margin: 0 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+    
+    .content {
+        width: 70%;
+        padding: 2rem 0rem;
+
+        h2 {
+            font-size: 1.5rem;
+            width: 85%;
+        }
+    
+        h1 {
+            font-size: 1.2rem;
+            width: 85%;
+        }
+    
+        p {
+            width: 85%;
+            font-size: 1rem;
+        }
+    }
+    
+}
+
+@media (max-width: 780px) {
     nav ul {
         flex-direction: column;
         align-items: center;
@@ -180,12 +215,66 @@ footer {
 
     .content {
         width: 80%;
+        padding: 2rem 0rem;
 
-        /* TAMANHO DAS LETRAS AQUI */
+        h2 {
+            font-size: 30px;
+            width: 85%;
+        }
+    
+        h1 {
+            font-size: 15px;
+            width: 85%;
+        }
+    
+        p {
+            width: 85%;
+            font-size: 10px;
+        }
+
+        .budget {
+            font-size: 15px;
+        }
     }
     
     #differentials {
         flex-direction: column;
         text-align: center;
     }
+}
+
+
+
+@media (max-width: 560px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        width: 80%;
+        padding: 2rem 0rem;
+
+        h2 {
+            font-size: 20px;
+            width: 85%;
+        }
+    
+        h1 {
+            font-size: 10px;
+            width: 85%;
+        }
+    
+        p {
+            width: 85%;
+            font-size: 7px;
+        }
+
+        .budget {
+            font-size: 10px;
+            width: 80%;
+        }
+    }
+
+
 }
