@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/responsiveness.css">
     <link rel="icon" type="image/x-icon" href="assets/images/icons/favicon.svg">
     <title>Monte Sinai Reformas</title>
 </head>
@@ -32,7 +33,6 @@
             </div>
           </div>
     </div>
-
     <main>
         <section>
             <article id="services">
@@ -58,33 +58,43 @@
 
             <article id="differentials">
                     <h2>Nossos diferenciais</h2>                
-                <div id="left">
-                    <img src="assets/images/workers.png" alt="">
-                </div>
-                <div id="right">
-                    <ul>
-                        <li><img src="assets/images/icons/important.svg" alt="">Proin ante ante</li>
-                        <li><img src="assets/images/icons/important.svg" alt="">Rhoncus nec mi at, ultrices suscipit quam</li>
-                        <li><img src="assets/images/icons/important.svg" alt="">Integer fringilla varius eros quis varius</li>
-                        <li><img src="assets/images/icons/important.svg" alt="">Nam at auctor est. Donec id ultricies sem</li>
-                        <li><img src="assets/images/icons/important.svg" alt="">Rhoncus nec mi at, ultrices suscipit quam</li>
-                        <li><img src="assets/images/icons/important.svg" alt="">Integer fringilla varius eros quis varius</li>
-                    </ul>
+                <div id="container-differentials">
+                    <div id="left">
+                        <img src="assets/images/workers.png" alt="">
+                    </div>
+                    <div id="right">
+                        <ul>
+                            <li><img src="assets/images/icons/important.svg" alt="">Proin ante ante</li>
+                            <li><img src="assets/images/icons/important.svg" alt="">Rhoncus nec mi at, ultrices suscipit quam</li>
+                            <li><img src="assets/images/icons/important.svg" alt="">Integer fringilla varius eros quis varius</li>
+                            <li><img src="assets/images/icons/important.svg" alt="">Nam at auctor est. Donec id ultricies sem</li>
+                            <li><img src="assets/images/icons/important.svg" alt="">Rhoncus nec mi at, ultrices suscipit quam</li>
+                            <li><img src="assets/images/icons/important.svg" alt="">Integer fringilla varius eros quis varius</li>
+                        </ul>
+                    </div>
                 </div>
             </article>
-
+        </section>
+        <section class="gallery">
+            <img id="mainImage" src="assets/images/gallery/predio3-fachada.jpg" alt="fachada de um prédio bege">
+            <div class="thumbnails">
+                <img src="assets/images/gallery/predio3-fachada-baixo.jpg" onclick="changeImage('assets/images/gallery/predio3-fachada-baixo.jpg')" alt="parte da fachada de um prédio com o banner da Monte Sinai">
+                <img src="assets/images/gallery/acabamentos.jpg" onclick="changeImage('assets/images/gallery/acabamentos.jpg')" alt="pessoa trabalhando nos acabamentos de uma igreja">
+                <img src="assets/images/gallery/fachada-3.jpg" onclick="changeImage('assets/images/gallery/fachada-3.jpg')" alt="fachada de prédio com andaimes e o banner da Monte Sinai">
+                <img src="assets/images/gallery/predio-fachada-2.jpg" onclick="changeImage('assets/images/gallery/predio-fachada-2.jpg')" alt="fachada de prédio cinza">
+                <img src="assets/images/gallery/predio-fachada.jpg" onclick="changeImage('assets/images/gallery/predio-fachada.jpg')" alt="fachada de prédio cinza e creme">
+                <img src="assets/images/gallery/predio2-fachada.jpg" onclick="changeImage('assets/images/gallery/predio2-fachada.jpg')" alt="fachada de prédio escura">
+            </div>
         </section>
         <div id="budget-container">
             <p>Faça seu orçamento de graça e sem compromisso pelo nosso WhatsApp!</p>
             <button class="budget"><a href="https://wa.me/5521992882264" target="_blank">Fazer um orçamento</a></button>
         </div>
     </main>
-
     <div id="fixed">
         <button id="to-whatsapp"><a href="https://wa.me/5521992882264" target="_blank"><img src="assets/images/icons/whatsapp-icon.svg" alt=""></></button>
         <button id="back-to-top"><a href="#initial-display"><img src="assets/images/icons/up-icon.svg" alt=""></a></button>
     </div>
-
     <footer>
         <div id="socials">
             <a href=""><img src="assets/images/icons/facebook-icon.svg" alt="Logo facebook"></a>
