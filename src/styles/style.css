@@ -3,7 +3,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--light-neutral-color);
-    color: gray;
 }
 
 header {
@@ -29,6 +28,18 @@ nav ul {
     list-style: none;
     padding: 10px;
     background-color: var(--tertiary-color);
+}
+
+nav ul li {
+    transition: transform 0.2s ease-in-out;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+}
+
+nav ul li a:hover {
+    color: var(--primary-color);
 }
 
 nav ul li a {
@@ -90,21 +101,33 @@ nav ul li a {
 }
 
 .budget {
-    background-color: var(--tertiary-color);
+    background-color: var(--light-neutral-color);
     border: none;
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
-    margin-top: 20px;
     border-radius: 13px;
     height: 12%;
     width: 40%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.budget:hover {
+    transform: scale(1.05);
+    background-color: var(--primary-color);
+   
+   a{
+    color: var(--light-neutral-color);
+    font-weight: bold;
+    }
 }
 
 button.budget a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
+
 
 #container-grid {
     display: grid;
@@ -189,10 +212,20 @@ button.budget a {
 }
 
 #budget-container {
+    height: 6%;
     text-align: center;
-    padding: 30%;
+    padding: 10% 0%;
     background-color: var(--tertiary-color);
     color: white;
+
+    .budget {
+        width: 20vw;
+        height: 7vh;
+    }
+
+    p {
+        padding-bottom: 1.5rem;
+    }
 }
 
 .gallery {
