@@ -7,6 +7,10 @@
     box-sizing: border-box;
     overflow-x: hidden;
     scroll-behavior: smooth;
+
+    a, h1, h2, h3, p {
+        overflow: hidden;
+    }
 }
 
 :root {

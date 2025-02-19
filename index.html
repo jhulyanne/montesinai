@@ -16,8 +16,8 @@
         <nav>
             <ul>              
                 <li><a href="#differentials">Diferenciais</a></li>
+                <li><a href="#budget-container">Faça seu orçamento</a></li>                
                 <li><a href="#services">Serviços</a></li>
-                <li><a href="#budget-container">Faça seu orçamento</a></li>
             </ul>
          </nav>
          <div class="container">
@@ -56,6 +56,18 @@
                 </div>
             </article>  
 
+            <article class="gallery">
+                <img id="mainImage" src="assets/images/gallery/predio3-fachada.jpg" alt="fachada de um prédio bege">
+                <div class="thumbnails">
+                    <img src="assets/images/gallery/predio3-fachada-baixo.jpg" onclick="changeImage('assets/images/gallery/predio3-fachada-baixo.jpg')" alt="parte da fachada de um prédio com o banner da Monte Sinai">
+                    <img src="assets/images/gallery/acabamentos.jpg" onclick="changeImage('assets/images/gallery/acabamentos.jpg')" alt="pessoa trabalhando nos acabamentos de uma igreja">
+                    <img src="assets/images/gallery/fachada-3.jpg" onclick="changeImage('assets/images/gallery/fachada-3.jpg')" alt="fachada de prédio com andaimes e o banner da Monte Sinai">
+                    <img src="assets/images/gallery/predio-fachada-2.jpg" onclick="changeImage('assets/images/gallery/predio-fachada-2.jpg')" alt="fachada de prédio cinza">
+                    <img src="assets/images/gallery/predio-fachada.jpg" onclick="changeImage('assets/images/gallery/predio-fachada.jpg')" alt="fachada de prédio cinza e creme">
+                    <img src="assets/images/gallery/predio2-fachada.jpg" onclick="changeImage('assets/images/gallery/predio2-fachada.jpg')" alt="fachada de prédio escura">
+                </div>
+            </article>
+
             <article id="differentials">
                     <h2>Nossos diferenciais</h2>                
                 <div id="container-differentials">
@@ -64,35 +76,45 @@
                     </div>
                     <div id="right">
                         <ul>
-                            <li><img src="assets/images/icons/important.svg" alt="">Proin ante ante</li>
-                            <li><img src="assets/images/icons/important.svg" alt="">Rhoncus nec mi at, ultrices suscipit quam</li>
-                            <li><img src="assets/images/icons/important.svg" alt="">Integer fringilla varius eros quis varius</li>
-                            <li><img src="assets/images/icons/important.svg" alt="">Nam at auctor est. Donec id ultricies sem</li>
-                            <li><img src="assets/images/icons/important.svg" alt="">Rhoncus nec mi at, ultrices suscipit quam</li>
-                            <li><img src="assets/images/icons/important.svg" alt="">Integer fringilla varius eros quis varius</li>
+                            <li><img src="assets/images/icons/important.svg" alt="tópico">Orçamentos gratuitos</li>
+                            <li><img src="assets/images/icons/important.svg" alt="tópico">Estamos há mais de 10 anos no mercado</li>
+                            <li><img src="assets/images/icons/important.svg" alt="tópico">Centenas de projetos terminados</li>
+                            <li><img src="assets/images/icons/important.svg" alt="tópico">Trabalhamos com integridade</li>
+                            <li><img src="assets/images/icons/important.svg" alt="tópico">Sempre buscamos a excelência em cada projeto</li>
+                            <li><img src="assets/images/icons/important.svg" alt="tópico">Respeitamos e investimos no bem-estar dos nossos colaboradores</li>
                         </ul>
                     </div>
                 </div>
             </article>
+
+            <article id="about-us">
+                <div id="container-mission">
+                    <h2>Mission</h2>
+                    <p>Oferecer serviços de construção e pintura de alta qualidade, promovendo soluções eficientes, com responsabilidade social e respeito aos nossos colaboradores e clientes.</p>
+                </div>
+                <div id="container-vision">
+                    <h2>Vision</h2>
+                    <p>Ser reconhecida como referência no setor de construção civil e pinturas no Rio de Janeiro, destacando-se pela excelência nos projetos, compromisso com a qualidade e impacto positivo na vida das pessoas.</p>
+                </div>                
+                <div id="container-values">
+                    <h2>Values</h2>
+                    <ul>
+                        <li><img src="assets/images/icons/important.svg" alt="tópico">Valorização Humana;</li>
+                        <li><img src="assets/images/icons/important.svg" alt="tópico">Ética e Transparência;</li>
+                        <li><img src="assets/images/icons/important.svg" alt="tópico">Compromisso com a Qualidade</li>
+                        <li><img src="assets/images/icons/important.svg" alt="tópico">Inovação e Crescimento.</li>
+                    </ul>
+                </div>
+            </article>
+
         </section>
-        <section class="gallery">
-            <img id="mainImage" src="assets/images/gallery/predio3-fachada.jpg" alt="fachada de um prédio bege">
-            <div class="thumbnails">
-                <img src="assets/images/gallery/predio3-fachada-baixo.jpg" onclick="changeImage('assets/images/gallery/predio3-fachada-baixo.jpg')" alt="parte da fachada de um prédio com o banner da Monte Sinai">
-                <img src="assets/images/gallery/acabamentos.jpg" onclick="changeImage('assets/images/gallery/acabamentos.jpg')" alt="pessoa trabalhando nos acabamentos de uma igreja">
-                <img src="assets/images/gallery/fachada-3.jpg" onclick="changeImage('assets/images/gallery/fachada-3.jpg')" alt="fachada de prédio com andaimes e o banner da Monte Sinai">
-                <img src="assets/images/gallery/predio-fachada-2.jpg" onclick="changeImage('assets/images/gallery/predio-fachada-2.jpg')" alt="fachada de prédio cinza">
-                <img src="assets/images/gallery/predio-fachada.jpg" onclick="changeImage('assets/images/gallery/predio-fachada.jpg')" alt="fachada de prédio cinza e creme">
-                <img src="assets/images/gallery/predio2-fachada.jpg" onclick="changeImage('assets/images/gallery/predio2-fachada.jpg')" alt="fachada de prédio escura">
-            </div>
-        </section>
+
         <div id="budget-container">
             <p>Faça seu orçamento de graça e sem compromisso pelo nosso WhatsApp!</p>
             <button class="budget"><a href="https://wa.me/5521992882264" target="_blank">Fazer um orçamento</a></button>
         </div>
     </main>
     <div id="fixed">
-        <button id="to-whatsapp"><a href="https://wa.me/5521992882264" target="_blank"><img src="assets/images/icons/whatsapp-icon.svg" alt=""></></button>
         <button id="back-to-top"><a href="#initial-display"><img src="assets/images/icons/up-icon.svg" alt=""></a></button>
     </div>
     <footer>
