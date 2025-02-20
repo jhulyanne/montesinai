@@ -5,6 +5,7 @@ body {
     background-color: var(--light-neutral-color);
 }
 
+
 header {
     height: 15vh;
     display: flex;
@@ -16,7 +17,7 @@ header {
 }
 
 #logo {
-    width: 15rem;
+    width: 15rem;  
 }
 
 nav ul {
@@ -278,7 +279,6 @@ button.budget a {
     text-align: center;
     padding: 2.5rem 0rem 1.5rem 0rem;
 }
-
 
 #mainImage {
     width: 500px;
