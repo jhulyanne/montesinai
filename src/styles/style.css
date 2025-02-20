@@ -171,10 +171,6 @@ button.budget a {
     align-items: center;
     background-color: #f1f1f1;
     padding: 5vw;
-
-    h2 {
-        padding-bottom: 3rem;
-    }
 }
 
 #container-differentials {
@@ -258,6 +254,10 @@ button.budget a {
 
 #budget-container {
     height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
     padding: 5% 0%;
     background-color: var(--tertiary-color);
@@ -270,6 +270,7 @@ button.budget a {
 
     p {
         padding-bottom: 1.5rem;
+        max-width: 80%;
     }
 }
 
@@ -298,12 +299,15 @@ button.budget a {
 }
 
 #fixed {
-    width: 10vw;
-    height: 20vh;
+    width: 10rem;
+    height: 10rem;
     bottom: 1rem; 
     right: 1rem;
     position: fixed;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     a {
         text-decoration: none;
@@ -335,13 +339,21 @@ button.budget a {
 }
 
 footer {
+    padding: 3rem 0rem;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
     background-color: var(--tertiary-clean);
-    color: gray;
+}
+
+#info {
+    padding-top: 2rem;
+
+    p {
+        color: var(--dark-neutral-color);
+        text-align: center;
+    }
 }
 
 #socials a img {
