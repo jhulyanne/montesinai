@@ -185,7 +185,6 @@ button.budget a {
 /* mudar isso em outras medias querys */
 #left {
     width: 30%;
- 
 }
 
 #left img {
@@ -225,7 +224,7 @@ button.budget a {
 }
 
 .a-u-container {
-   display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -247,7 +246,6 @@ button.budget a {
     gap: 20px;
     padding: 20px;
 }
-
 
 #budget-container {
     height: 40vh;
