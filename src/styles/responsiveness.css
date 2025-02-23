@@ -120,7 +120,7 @@
 @media (max-width: 560px) {
     body {
         h2 {
-            font-size: 22px;
+            font-size: 20px;
         }
     }
 
@@ -142,13 +142,13 @@
         padding: 2rem 0rem;
     
         h1 {
-            font-size: 17px;
+            font-size: 15px;
             width: 85%;
         }
     
         p {
             width: 85%;
-            font-size: 14px;
+            font-size: 12px;
         }
 
         .budget {
@@ -169,6 +169,14 @@
             width: 60vw;
             height: 5vh;
         }
+    }
+
+    #container-differentials {
+        width: 100vw;
+    }
+
+    #left {
+        width: 70%;
     }
 
     #fixed {
