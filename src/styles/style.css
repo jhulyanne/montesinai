@@ -5,7 +5,6 @@ body {
     background-color: var(--light-neutral-color);
 }
 
-
 header {
     height: 15vh;
     display: flex;

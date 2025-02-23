@@ -114,30 +114,41 @@
     #fixed {
         width: 8rem;
         height: 8rem;
-        bottom: 1rem; 
-        right: 1rem;
     }
-
 }
 
 @media (max-width: 560px) {
+    body {
+        h2 {
+            font-size: 22px;
+        }
+    }
+
+    header {
+        height: 12vh;
+    }
+
+    nav ul {
+        font-size: 12px;
+        height: 6vh;
+    }
+
+    .container {
+        height: calc(100vh - 12vh - 6vh);
+    }
+
     .content {
         width: 80%;
         padding: 2rem 0rem;
-
-        h2 {
-            font-size: 20px;
-            width: 85%;
-        }
     
         h1 {
-            font-size: 10px;
+            font-size: 17px;
             width: 85%;
         }
     
         p {
             width: 85%;
-            font-size: 7px;
+            font-size: 14px;
         }
 
         .budget {
@@ -146,10 +157,22 @@
         }
     }
 
+    #services {
+
+        .container-services {
+            font-size: 13px;
+        }
+    }
+
     #budget-container {
         .budget {
             width: 60vw;
             height: 5vh;
         }
+    }
+
+    #fixed {
+        width: 7rem;
+        height: 7rem;
     }
 }
