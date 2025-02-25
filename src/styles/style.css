@@ -171,11 +171,15 @@ button.budget a {
     align-items: center;
     background-color: #f1f1f1;
     padding: 5vw;
+
+    h2 {
+        padding-bottom: 2rem;
+    }
 }
 
 #container-differentials {
     width: 100vw;
-    padding: 5rem;
+    padding: 0rem 5rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -193,13 +197,12 @@ button.budget a {
 #right ul {
     list-style: none;
     padding: 0;
-
 }
 
 #right {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 #right ul li {
@@ -338,6 +341,10 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: var(--tertiary-clean);
+
+    #name {
+        font-weight: bold;
+    }
 }
 
 #info {

@@ -99,11 +99,33 @@
         }
     }
 
+    #container-differentials {
+        width: 100vw;
+        padding: 2rem;
+    }
+    
     #left {
         width: 60%;
         padding-bottom: 7%;
     }
 
+    #right {
+        width: 90%;
+
+        ul li {
+            width: 100%;
+        }
+
+        ul li p {
+            width: 100%;
+        }
+    }
+
+    #right ul li img, #about-us div ul li img {
+        width: 3%;
+        height: auto;
+    }
+    
     #budget-container {
         .budget {
             width: 50vw;
@@ -120,7 +142,7 @@
 @media (max-width: 560px) {
     body {
         h2 {
-            font-size: 20px;
+            font-size: 18px;
         }
     }
 
@@ -184,3 +206,12 @@
         height: 7rem;
     }
 }
+
+/* 
+- diminuir o tamanho do container inicial
+- aumentar o width do "nossos diferenciais"
+- ver pq os dots estão de tamanho diferente
+- aumentar mais a % da imagem de diferenciais
+- diminuit padding de baixo de "serviços oferecidos" e de "nossos difeenciais"
+- diminuir mais a fonte do h2 
+*/
